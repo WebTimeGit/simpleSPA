@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import {Container} from "@/components/container/container";
+import {Container} from "@/components/container";
 import Image from "next/image";
 import Link from "next/link";
 import {ROUTES} from "@/routes/routes";

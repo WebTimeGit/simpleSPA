@@ -1,4 +1,4 @@
-import { Container } from "@/components/container/container";
+import { Container } from "@/components/container";
 import styles from './header.module.scss';
 import Image from "next/image";
 import Link from "next/link";

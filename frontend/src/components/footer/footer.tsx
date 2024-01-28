@@ -1,7 +1,7 @@
 import React from 'react';
-import {Container} from "@/components/container/container";
 import styles from './footer.module.scss';
 import classNames from "classnames";
+import {Container} from "@/components/container";
 export const Footer = () => {
 
 	const currentYear = new Date().getFullYear();

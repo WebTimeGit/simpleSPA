@@ -12,8 +12,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".", // Изменено на уровень выше
     "paths": {
-      "@/*": ["./src/*", "styles/*"],
+      "@/*": ["src/*"],
+      "@/styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

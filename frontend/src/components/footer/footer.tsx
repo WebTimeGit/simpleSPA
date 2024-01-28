@@ -1,0 +1,19 @@
+import React from 'react';
+import {Container} from "@/components/container/container";
+import styles from './footer.module.scss';
+import classNames from "classnames";
+export const Footer = () => {
+
+	const currentYear = new Date().getFullYear();
+
+
+	return (
+		<footer className={classNames('text-center p-4 mt-8', styles.footer)}>
+			<Container >
+				<p className="text-sm">
+					&copy; {currentYear} WebTime. Все права защищены.
+				</p>
+			</Container>
+		</footer>
+	);
+};

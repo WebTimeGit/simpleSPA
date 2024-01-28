@@ -1,0 +1,7 @@
+.idea
+package-lock.json
+
+backend/node_modules
+frontend/node_modules
+
+.env
